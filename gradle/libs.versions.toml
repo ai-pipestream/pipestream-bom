@@ -25,7 +25,7 @@ apicurio = "3.1.2"
 # Testing
 awaitility = "4.3.0"
 testcontainers = "2.0.2"
-testcontainers-junit = "1.20.4"
+testcontainers-junit = "1.21.3"
 assertj = "3.27.6"
 hamcrest = "3.0"
 json-schema-validator = "2.0.0"
