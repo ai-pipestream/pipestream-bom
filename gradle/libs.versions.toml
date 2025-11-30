@@ -21,7 +21,7 @@ quarkus-mcp-server = "1.7.3"
 # AWS SDK
 aws-sdk = "2.39.2"
 # Apicurio
-apicurio = "3.1.2"
+apicurio = "3.1.4"
 # Testing
 awaitility = "4.3.0"
 testcontainers = "2.0.2"
