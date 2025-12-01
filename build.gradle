@@ -157,8 +157,14 @@ publishing {
     }
 }
 
-// nmcp plugin provides publishAllPublicationsToCentralPortal and publishAllPublicationsToCentralPortalSnapshots tasks
-// Configure credentials via environment variables: MAVEN_CENTRAL_USERNAME, MAVEN_CENTRAL_PASSWORD
+// nmcp plugin configuration for Maven Central publishing
+nmcp {
+    publishAllPublicationsToCentralPortal {
+        username = findProperty('mavenCentralUsername') ?: System.getenv('MAVEN_CENTRAL_USERNAME')
+        password = findProperty('mavenCentralPassword') ?: System.getenv('MAVEN_CENTRAL_PASSWORD')
+        publishingType = "AUTOMATIC"
+    }
+}
 
 signing {
     def signingKey = System.getenv("GPG_SIGNING_KEY")
