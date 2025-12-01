@@ -21,7 +21,7 @@ scmVersion {
 
 group = 'ai.pipestream'
 version = scmVersion.version
-description = 'Pipeline BOM - Bill of Materials'
+description = 'Pipestream AI BOM - Bill of Materials'
 
 javaPlatform {
     allowDependencies()
@@ -84,7 +84,7 @@ publishing {
             artifactId = 'pipestream-bom'
 
             pom {
-                name = 'Pipestream AI Pipeline BOM'
+                name = 'Pipestream AI BOM'
                 description = 'Bill of Materials for the Pipestream AI platform'
                 url = 'https://github.com/ai-pipestream/pipestream-bom'
 
@@ -115,7 +115,7 @@ publishing {
             artifactId = 'pipestream-bom-catalog'
 
             pom {
-                name = 'Pipestream AI Pipeline BOM Catalog'
+                name = 'Pipestream AI BOM Catalog'
                 description = 'Version Catalog for the Pipestream AI platform'
                 url = 'https://github.com/ai-pipestream/pipestream-bom'
 
