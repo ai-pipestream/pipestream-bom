@@ -55,6 +55,7 @@ pdfbox = "3.0.6"
 # Security
 password4j = "1.8.4"
 pipestream-wiremock-server = "0.1.4"
+pipestream-devservices = "0.0.2"
 
 [libraries]
 # Quarkus BOM
@@ -185,7 +186,8 @@ pipestream-test-documents = { module = "ai.pipestream:test-documents", version.r
 pipestream-parser-pipedoc-parsed = { module = "ai.pipestream:parser-pipedoc-parsed", version.ref = "sample-documents" }
 pipestream-double-chunked-pipedocs = { module = "ai.pipestream:double-chunked-pipedocs", version.ref = "sample-documents" }
 
-# WireMock gRPC Client (New Library)
+# Pipestream internal libraries
+pipestream-devservices = { module = "ai.pipestream:pipestream-quarkus-devservices", version.ref = "pipestream-devservices" }
 pipestream-wiremock-server = { module = "ai.pipestream:pipestream-wiremock-server", version.ref = "pipestream-wiremock-server" }
 
 [plugins]

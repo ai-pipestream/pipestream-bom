@@ -10,7 +10,7 @@ plugins {
 scmVersion {
     tag {
         prefix = 'v'
-        initialVersion { config, position -> '0.4.0' }
+        initialVersion { config, position -> '0.6.0' }
     }
     checks {
         uncommittedChanges = false
@@ -52,9 +52,9 @@ dependencies {
         api("com.google.protobuf:protobuf-java-util") { version { strictly(libs.versions.protobuf.get()) } }
         api("com.google.protobuf:protoc") { version { strictly(libs.versions.protobuf.get()) } }
 
-        // Internal ai.pipestream dependencies - all in coordinated release train
-        api("ai.pipestream:devservices:${version}")
-        api("ai.pipestream:devservices-deployment:${version}")
+        // Internal ai.pipestream dependencies
+        api("ai.pipestream:pipestream-quarkus-devservices:0.0.2")
+        api("ai.pipestream:pipestream-quarkus-devservices-deployment:0.0.2")
 
         // grpc modules - now part of release train
         api("ai.pipestream:grpc-stubs:${version}")
