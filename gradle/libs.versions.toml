@@ -55,7 +55,7 @@ pdfbox = "3.0.6"
 # Security
 password4j = "1.8.4"
 pipestream-wiremock-server = "0.1.4"
-pipestream-devservices = "0.0.2"
+pipestream-devservices = "0.1.0"
 
 [libraries]
 # Quarkus BOM
