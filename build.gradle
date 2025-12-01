@@ -53,8 +53,8 @@ dependencies {
         api("com.google.protobuf:protoc") { version { strictly(libs.versions.protobuf.get()) } }
 
         // Internal ai.pipestream dependencies
-        api("ai.pipestream:pipestream-quarkus-devservices:0.1.0")
-        api("ai.pipestream:pipestream-quarkus-devservices-deployment:0.1.0")
+        api("ai.pipestream:pipestream-quarkus-devservices:0.1.1")
+        api("ai.pipestream:pipestream-quarkus-devservices-deployment:0.1.1")
 
         // grpc modules - now part of release train
         api("ai.pipestream:grpc-stubs:${version}")
