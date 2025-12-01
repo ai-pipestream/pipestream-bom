@@ -56,6 +56,7 @@ pdfbox = "3.0.6"
 password4j = "1.8.4"
 pipestream-wiremock-server = "0.1.4"
 pipestream-devservices = "0.1.1"
+apicurio-proto-quarkus= "0.0.2"
 
 [libraries]
 # Quarkus BOM
@@ -92,7 +93,7 @@ grpc-core = { module = "io.grpc:grpc-core", version.ref = "grpc" }
 grpc-api = { module = "io.grpc:grpc-api", version.ref = "grpc" }
 grpc-netty = { module = "io.grpc:grpc-netty", version.ref = "grpc" }
 proto-google-common-protos = { module = "com.google.api.grpc:proto-google-common-protos" }
-
+quarkus-apicurio-registry-protobuf = { module = "ai.pipestream:quarkus-apicurio-registry-protobuf", version.ref = "apicurio-proto-quarkus"}
 # Google Guava (version managed by Quarkus BOM)
 guava = { module = "com.google.guava:guava" }
 
