@@ -19,7 +19,7 @@ wiremock-grpc-extension = "0.11.0"
 hibernate-types = "2.2.0"
 quarkus-mcp-server = "1.8.0"
 # AWS SDK
-aws-sdk = "2.39.5"
+aws-sdk = "2.40.3"
 # Apicurio
 apicurio = "3.1.4"
 # Testing
