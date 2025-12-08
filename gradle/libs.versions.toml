@@ -56,7 +56,7 @@ pdfbox = "3.0.6"
 password4j = "1.8.4"
 #our services
 pipestream-wiremock-server = "0.1.6"
-pipestream-devservices = "0.1.3"
+pipestream-devservices = "0.7.0"
 apicurio-proto-quarkus= "0.0.3"
 # Gradle plugins
 axion-release = "1.21.1"
