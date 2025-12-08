@@ -61,7 +61,7 @@ dependencies {
         api("ai.pipestream:grpc-google-descriptor:${version}")
 
         // library modules - all in release train
-        api("ai.pipestream:pipestream-wiremock-server:0.1.5")
+        api("ai.pipestream:pipestream-wiremock-server:0.1.6")
 
         // Sample documents test data - separate release train
         api libs.pipestream.sample.doc.types
