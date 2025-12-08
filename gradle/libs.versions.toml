@@ -40,7 +40,7 @@ tika4-shaded = "0.1.9"
 sample-documents = "0.2.2"
 # DJL (Deep Java Library)
 djl = "0.35.0"
-djl-pytorch-jni = "2.7.1-0.35.0"
+djl-pytorch-jni = "2.7.1-0.35.1"
 djl-pytorch-native = "2.7.1"
 # Apache Commons
 commons-io = "2.21.0"
